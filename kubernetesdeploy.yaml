@@ -17,6 +17,7 @@ spec:
       containers:
       - name: bankapp-eta-container
         image: saikumar/bankapp-eta-app
+        imagePullPolicy: Never
         ports:
         - containerPort: 8082
 ---
